@@ -4,30 +4,20 @@ const notify = require("gulp-notify");
 const vueify = require('vueify');
 const babelify = require('babelify');
 const browserify = require('browserify');
-var source = require('vinyl-source-stream');
+const source = require('vinyl-source-stream');
+const server = require('./gulp/server.js');
 
-const http = require('http');
-const st = require('st');
-
+const entryJS = './src/main.js';
 const resources = {
+    html: '**/*.html',
+    asset: './src/assets/*',
     less: '',
     js: './src/**/*.js',
     vue: './src/**/*.vue'
-}
-const entryJS = './src/main.js';
-
-const server = function() {
-    http.createServer(
-        st({
-            path: __dirname,
-            index: 'index.html',
-            cache: false
-        })
-    ).listen(8080);
-}
+};
 
 // compile js.
-gulp.task('compile', function() {
+gulp.task('compile', () => {
     return browserify(entryJS)
         .transform('babelify')
         .transform('vueify')
@@ -35,24 +25,24 @@ gulp.task('compile', function() {
         .pipe(source('main.js'))
         .pipe(gulp.dest('static/js'))
         .pipe(livereload())
-        .pipe(notify('js compiled.'));
+        .pipe(notify('JS compiled.'));
 });
 
 // refresh html.
-gulp.task('refresh', function() {
-    gulp.src('*.html')
+gulp.task('refresh', () => {
+    gulp.src('')
         .pipe(livereload())
-        .pipe(notify('refreshed.'));
+        .pipe(notify('Refreshed.'));
 });
 
 // watch.
-gulp.task('watch', function() {
+gulp.task('watch', () => {
     livereload.listen();
 
     gulp.watch([resources.js, resources.vue], ['compile']);
-    gulp.watch('**/*.html', ['refresh']);
+    gulp.watch([resources.html, resources.asset], ['refresh']);
 
-    server();
+    server(__dirname);
 });
 
 // default task.
