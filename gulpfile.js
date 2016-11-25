@@ -6,6 +6,7 @@ const babelify = require('babelify');
 const browserify = require('browserify');
 const source = require('vinyl-source-stream');
 const server = require('./gulp/server.js');
+const copy = require('copy');
 
 const entryJS = './src/main.js';
 const resources = {
@@ -35,13 +36,25 @@ gulp.task('refresh', () => {
         .pipe(notify('Refreshed.'));
 });
 
+gulp.task('index', (end) => {
+    copy('index.html', 'Home', () => {});
+    copy('index.html', 'Product', () => {});
+    copy('index.html', 'App', () => {});
+    copy('index.html', 'About', end);
+});
+
 // watch.
 gulp.task('watch', () => {
     livereload.listen();
 
     gulp.watch([resources.js, resources.vue], ['compile']);
-    gulp.watch([resources.html, resources.asset], ['refresh']);
+    gulp.watch([resources.asset], ['refresh']);
+    gulp.watch('index.html', ['index']);
 
+    server(__dirname);
+});
+
+gulp.task('server', () => {
     server(__dirname);
 });
 
