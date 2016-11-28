@@ -20,12 +20,12 @@
                     </li>
                 </ul>
                 <div class="actions">
-                    <a href="" class="buy left">
+                    <a href="https://www.indiegogo.com/project/preview/a3a5d0cc#/" class="buy left" target="_blank">
                         <img src="/static/assets/buy_now.png">
                     </a>
                     <div class="share left">
-                    <span><img src="/static/assets/share_twitter.png"></span>
-                    <span><img src="/static/assets/share_facebook.png"></span>
+                        <span><a href="https://twitter.com/entertechchina" target="_blank"><img src="/static/assets/share_twitter.png"></a></span>
+                        <span><a href="https://www.facebook.com/Naptime-by-Entertech-1728156884115311" target="_blank"><img src="/static/assets/share_facebook.png"></a></span>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ html,body {
             height: @nav-height;
             max-width: 100%;
             position: relative;
-            padding: 0 240px 0 120px;
+            padding: 0 240px 0 100px;
         }
         ul {
             -webkit-padding-start: 0;
@@ -77,12 +77,13 @@ html,body {
             width: @nav-height;
             height: @nav-height;
             position: absolute;
-            left: 20px;
+            left: 10px;
             top: 50%;
             margin-top: -33px;
         }
         .menus {
             height: 100%;
+            margin: 0;
             li {
                 float: left;
                 width: 108px;

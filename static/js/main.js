@@ -8173,7 +8173,7 @@ exports.insert = function (css) {
 }
 
 },{}],6:[function(require,module,exports){
-var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".text-highlight {\n  color: #DDD600;\n}\n.text-highlight.reverse {\n  color: #000011;\n  background-color: #DDD600;\n}\n.left {\n  float: left;\n}\n.pull-right {\n  float: right;\n}\n.clear-fix {\n  overflow: auto;\n  zoom: 1;\n}\nhtml,\nbody {\n  width: 100%;\n  height: 100%;\n}\n#app {\n  font-family: HanHei SC, PingHei, PingFang SC, STHeitiSC-Light, Helvetica Neue, Helvetica, Arial, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-align: center;\n  margin: 0 auto;\n  height: 100%;\n}\n#app a {\n  text-decoration: none;\n}\n#app nav {\n  position: absolute;\n  top: 0;\n  width: 100%;\n}\n#app nav .inner {\n  height: 100px;\n  max-width: 100%;\n  position: relative;\n  padding: 0 240px 0 120px;\n}\n#app nav ul {\n  -webkit-padding-start: 0;\n}\n#app nav a {\n  color: white;\n}\n#app nav a:hover {\n  color: #DDDDDD;\n}\n#app nav .logo {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  left: 20px;\n  top: 50%;\n  margin-top: -33px;\n}\n#app nav .menus {\n  height: 100%;\n}\n#app nav .menus li {\n  float: left;\n  width: 108px;\n  height: 100%;\n  list-style: none;\n}\n#app nav .menus li a {\n  height: 100%;\n  line-height: 100px;\n  display: block;\n}\n#app nav .actions {\n  position: absolute;\n  right: 20px;\n  width: 240px;\n  top: 50%;\n  margin-top: -10px;\n}\n#app nav .actions .buy {\n  margin: 0 20px;\n}\n#app .page {\n  width: 100%;\n  height: 100%;\n}")
+var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".text-highlight {\n  color: #DDD600;\n}\n.text-highlight.reverse {\n  color: #000011;\n  background-color: #DDD600;\n}\n.left {\n  float: left;\n}\n.pull-right {\n  float: right;\n}\n.clear-fix {\n  overflow: auto;\n  zoom: 1;\n}\nhtml,\nbody {\n  width: 100%;\n  height: 100%;\n}\n#app {\n  font-family: HanHei SC, PingHei, PingFang SC, STHeitiSC-Light, Helvetica Neue, Helvetica, Arial, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-align: center;\n  margin: 0 auto;\n  height: 100%;\n}\n#app a {\n  text-decoration: none;\n}\n#app nav {\n  position: absolute;\n  top: 0;\n  width: 100%;\n}\n#app nav .inner {\n  height: 80px;\n  max-width: 100%;\n  position: relative;\n  padding: 0 240px 0 100px;\n}\n#app nav ul {\n  -webkit-padding-start: 0;\n}\n#app nav a {\n  color: white;\n}\n#app nav a:hover {\n  color: #DDDDDD;\n}\n#app nav .logo {\n  width: 80px;\n  height: 80px;\n  position: absolute;\n  left: 10px;\n  top: 50%;\n  margin-top: -33px;\n}\n#app nav .menus {\n  height: 100%;\n  margin: 0;\n}\n#app nav .menus li {\n  float: left;\n  width: 108px;\n  height: 100%;\n  list-style: none;\n}\n#app nav .menus li a {\n  height: 100%;\n  line-height: 80px;\n  display: block;\n}\n#app nav .actions {\n  position: absolute;\n  right: 20px;\n  width: 240px;\n  top: 50%;\n  margin-top: -10px;\n}\n#app nav .actions .buy {\n  margin: 0 20px;\n}\n#app .page {\n  width: 100%;\n  height: 100%;\n}")
 ;(function(){
 "use strict";
 })()
@@ -8181,7 +8181,7 @@ if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
 __vue__options__.render = function render () {var _vm=this;return _vm._h('div',{attrs:{"id":"app"}},[_vm._h('nav',[_vm._h('div',{staticClass:"inner"},[_vm._m(0)," ",_vm._h('ul',{staticClass:"menus"},[_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/"}},["Home"])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/product"}},[" Product "])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/app"}},[" App "])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/about"}},[" About "])])])," ",_vm._m(1)])])," ",_vm._h('transition',{attrs:{"name":"fade","mode":"out-in"}},[_vm._h('router-view',{staticClass:"page"})])])}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;return _vm._h('div',{staticClass:"logo"},[_vm._h('img',{attrs:{"src":"/static/assets/logo_yellow.png"}})])},function render () {var _vm=this;return _vm._h('div',{staticClass:"actions"},[_vm._h('a',{staticClass:"buy left",attrs:{"href":""}},[_vm._h('img',{attrs:{"src":"/static/assets/buy_now.png"}})])," ",_vm._h('div',{staticClass:"share left"},[_vm._h('span',[_vm._h('img',{attrs:{"src":"/static/assets/share_twitter.png"}})])," ",_vm._h('span',[_vm._h('img',{attrs:{"src":"/static/assets/share_facebook.png"}})])])])}]
+__vue__options__.staticRenderFns = [function render () {var _vm=this;return _vm._h('div',{staticClass:"logo"},[_vm._h('img',{attrs:{"src":"/static/assets/logo_yellow.png"}})])},function render () {var _vm=this;return _vm._h('div',{staticClass:"actions"},[_vm._h('a',{staticClass:"buy left",attrs:{"href":"https://www.indiegogo.com/project/preview/a3a5d0cc#/","target":"_blank"}},[_vm._h('img',{attrs:{"src":"/static/assets/buy_now.png"}})])," ",_vm._h('div',{staticClass:"share left"},[_vm._h('span',[_vm._h('a',{attrs:{"href":"https://twitter.com/entertechchina","target":"_blank"}},[_vm._h('img',{attrs:{"src":"/static/assets/share_twitter.png"}})])])," ",_vm._h('span',[_vm._h('a',{attrs:{"href":"https://www.facebook.com/Naptime-by-Entertech-1728156884115311","target":"_blank"}},[_vm._h('img',{attrs:{"src":"/static/assets/share_facebook.png"}})])])])])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -8216,10 +8216,6 @@ var app = new _vue2.default(_vue2.default.util.extend({
 
 app.$mount('#app');
 
-var a = 'hello world';
-
-console.log(_router2.default);
-
 },{"./App.vue":6,"./router":12,"vue":4}],8:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".about {\n  background-color: #233941;\n}")
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
@@ -8249,26 +8245,26 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2", __vue__options__)
+    hotAPI.createRecord("data-v-4", __vue__options__)
   } else {
-    hotAPI.rerender("data-v-2", __vue__options__)
+    hotAPI.rerender("data-v-4", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],10:[function(require,module,exports){
-var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".text-highlight {\n  color: #DDD600;\n}\n.text-highlight.reverse {\n  color: #000011;\n  background-color: #DDD600;\n}\n.home {\n  background-color: #2D292E;\n}\n.main {\n  margin: 0 auto;\n  width: 800px;\n}\n.main .title {\n  margin-top: 200px;\n  color: white;\n  font-size: 24px;\n  font-weight: bold;\n  text-align: left;\n}")
+var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".text-highlight {\n  color: #DDD600;\n}\n.text-highlight.reverse {\n  color: #000011;\n  background-color: #DDD600;\n}\n.home {\n  background-color: #2D292E;\n  background: url(static/assets/home_bg.png) no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n.main {\n  margin: 0 auto;\n  width: 800px;\n  text-align: left;\n  color: white;\n}\n.main .title {\n  margin-top: 200px;\n  font-size: 24px;\n  font-weight: bold;\n  text-shadow: 2px 2px 2px #555;\n}\n.main .title .text-highlight {\n  text-shadow: none;\n}\n.main .sign {\n  margin-top: 40px;\n  line-height: 32px;\n}\n.main .sign:before {\n  display: block;\n  width: 50px;\n  height: 2px;\n  content: \"\";\n  border-top: 2px solid #DDD600;\n}\n.main .description {\n  margin-top: 80px;\n  font-size: 14px;\n  line-height: 24px;\n}")
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
 __vue__options__.render = function render () {var _vm=this;return _vm._m(0)}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;return _vm._h('section',{staticClass:"home"},[_vm._h('div',{staticStyle:{"height":"1px"}})," ",_vm._h('div',{staticClass:"main"},[_vm._h('p',{staticClass:"title"},["\n            The first smart eyeshade with ",_vm._h('span',{staticClass:"text-highlight reverse"},["EEG"])," technology ",_vm._h('br'),"\n            for the ",_vm._h('span',{staticClass:"text-highlight"},[" Best Naps "])," ever.\n        "])])])}]
+__vue__options__.staticRenderFns = [function render () {var _vm=this;return _vm._h('section',{staticClass:"home"},[_vm._h('div',{staticStyle:{"height":"1px"}})," ",_vm._h('div',{staticClass:"main"},[_vm._h('div',{staticClass:"title"},["\n            The first smart eyeshade with ",_vm._h('span',{staticClass:"text-highlight reverse"},["EEG"])," technology ",_vm._h('br'),"\n            for the ",_vm._h('span',{staticClass:"text-highlight"},[" Best Naps "])," ever.\n        "])," ",_vm._h('div',{staticClass:"sign"},["\n            ENTERTECH.\n        "])," ",_vm._h('div',{staticClass:"description"},["\n            Dark environment anywhere",_vm._h('br'),"\n            Music and sleep tracks",_vm._h('br'),"\n            Wake up at the optimal time in your sleep cycle\n        "])])])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3", __vue__options__)
+    hotAPI.createRecord("data-v-2", __vue__options__)
   } else {
-    hotAPI.rerender("data-v-3", __vue__options__)
+    hotAPI.rerender("data-v-2", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],11:[function(require,module,exports){
@@ -8283,9 +8279,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4", __vue__options__)
+    hotAPI.createRecord("data-v-3", __vue__options__)
   } else {
-    hotAPI.rerender("data-v-4", __vue__options__)
+    hotAPI.rerender("data-v-3", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],12:[function(require,module,exports){
