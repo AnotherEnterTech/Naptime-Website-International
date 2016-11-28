@@ -43,6 +43,7 @@
 html,body {
     width: 100%;
     height: 100%;
+    background-color: @color-bg-dark;
 }
 #app {
     font-family: HanHei SC,PingHei,PingFang SC,STHeitiSC-Light,Helvetica Neue,Helvetica,Arial,sans-serif;
