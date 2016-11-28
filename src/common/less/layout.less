@@ -3,6 +3,17 @@
 @inner-width: 1180px;
 
 
+.f-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.f-desc {
+    font-size: 15px;
+}
+.f-sign {
+    font-size: 16px;
+}
+
 .left {
     float: left;
 }
@@ -14,4 +25,24 @@
 .clear-fix {
     overflow: auto;
     zoom: 1;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.gap {
+    height: 1px;
+}
+
+.cover-bg(@bg) {
+    background: @bg no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

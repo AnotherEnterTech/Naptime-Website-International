@@ -11,7 +11,7 @@ import About from './pages/About.vue'
 const routes = [{
     name: 'index',
     path: '/',
-    component: Home
+    redirect: '/home'
 }, {
     name: 'home',
     path: '/home',
@@ -32,6 +32,7 @@ const routes = [{
 
 const router = new VueRouter({
     mode: 'history',
+    linkActiveClass: 'active',
     routes
 })
 

@@ -1,15 +1,15 @@
 <template>
     <section class="home">
-        <div style="height: 1px;"></div>
+        <div class="gap black"></div>
         <div class="main">
-            <div class="title">
+            <div class="title f-title">
                 The first smart eyeshade with <span class="text-highlight reverse">EEG</span> technology <br>
                 for the <span class="text-highlight"> Best Naps </span> ever.
             </div>
-            <div class="sign">
+            <div class="sign f-sign">
                 ENTERTECH.
             </div>
-            <div class="description">
+            <div class="description f-desc">
                 Dark environment anywhere<br/>
                 Music and sleep tracks<br/>
                 Wake up at the optimal time in your sleep cycle
@@ -20,14 +20,11 @@
 
 <style lang="less">
 @import "../common/less/color.less";
+@import "../common/less/layout.less";
 
 .home {
     background-color: @color-bg-dark;
-    background: url(static/assets/home_bg.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    .cover-bg(url(static/assets/home_bg.png));
 }
 .main {
     margin: 0 auto;
@@ -36,8 +33,6 @@
     color: @color-text-white;
     .title {
         margin-top: 200px;
-        font-size: 24px;
-        font-weight: bold;
         text-shadow: 2px 2px 2px #555;
         .text-highlight {
           text-shadow: none;
@@ -56,7 +51,6 @@
     }
     .description {
         margin-top: 80px;
-        font-size: 14px;
         line-height: 24px;
     }
 }

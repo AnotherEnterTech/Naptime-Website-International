@@ -7,7 +7,7 @@
                 </div>
                 <ul class="menus">
                     <li>
-                        <router-link to="/">Home</router-link>
+                        <router-link to="/home">Home</router-link>
                     </li>
                     <li>
                         <router-link to="/product"> Product </router-link>
@@ -21,7 +21,7 @@
                 </ul>
                 <div class="actions">
                     <a href="https://www.indiegogo.com/project/preview/a3a5d0cc#/" class="buy left" target="_blank">
-                        <img src="/static/assets/buy_now.png">
+                        <img src="/static/assets/buy_now.png" width="100">
                     </a>
                     <div class="share left">
                         <span><a href="https://twitter.com/entertechchina" target="_blank"><img src="/static/assets/share_twitter.png"></a></span>
@@ -58,6 +58,7 @@ html,body {
         position: absolute;
         top: 0;
         width: 100%;
+        z-index: 1000;
         .inner {
             height: @nav-height;
             max-width: 100%;
@@ -93,6 +94,9 @@ html,body {
                     height: 100%;
                     line-height: @nav-height;
                     display: block;
+                }
+                .active {
+                    color: @color-text-highlight;
                 }
             }
         }
