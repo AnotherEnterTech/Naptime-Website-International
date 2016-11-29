@@ -7,16 +7,16 @@
                 </div>
                 <ul class="menus">
                     <li>
-                        <router-link to="/home">Home</router-link>
+                        <router-link to="/home"> HOME </router-link>
                     </li>
                     <li>
-                        <router-link to="/product"> Product </router-link>
+                        <router-link to="/product"> PRODUCT </router-link>
                     </li>
                     <li>
-                        <router-link to="/app"> App </router-link>
+                        <router-link to="/app"> APP </router-link>
                     </li>
                     <li>
-                        <router-link to="/about"> About </router-link>
+                        <router-link to="/about"> ABOUT </router-link>
                     </li>
                 </ul>
                 <div class="actions">
@@ -82,6 +82,10 @@ html,body {
             left: 10px;
             top: 50%;
             margin-top: -33px;
+            img {
+                width: 60px;
+                height: 60px;
+            }
         }
         .menus {
             height: 100%;
@@ -115,6 +119,75 @@ html,body {
     .page {
         width: 100%;
         height: 100%;
+    }
+}
+
+// 显示器
+@media only screen and (min-width: @screen-desktop) {
+
+}
+
+// 笔记本
+@media only screen and (min-width: @screen-pad) and (max-width: @screen-desktop) {
+
+}
+
+// 平板
+// @media only screen and (min-width: @screen-mobile) and (max-width: @screen-pad) {
+//
+// }
+
+// 手机
+@media only screen and (max-width: @screen-mobile) {
+    @nav-height: 60px;
+    .f-title {
+        font-size: 16px;
+    }
+    .f-sign {
+        fong-size: 12px;
+    }
+    .f-desc {
+        fong-size: 12px;
+    }
+    #app {
+        nav {
+            .inner {
+                padding: 0 0 0 40px;
+                height: @nav-height;
+            }
+            .logo {
+                width: @nav-height/2;
+                height: @nav-height/2;
+                margin-top: -15px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .menus {
+                li {
+                    margin: 0 6px;
+                    width: inherit;
+                    a {
+                        line-height: @nav-height;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .actions {
+                width: inherit;
+                right: 0;
+                .buy {
+                    margin: 0;
+                    img {
+                        width: 80px;
+                    }
+                }
+                .share {
+                    display: none;
+                }
+            }
+        }
     }
 }
 </style>
