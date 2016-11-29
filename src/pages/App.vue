@@ -3,6 +3,9 @@
         <div class="inner">
             <div class="gap black"></div>
             <div class="content">
+                <div class="image">
+                    <img src="static/assets/app-show.png"/>
+                </div>
                 <div class="title f-title">
                     <span class="text-highlight">Naptime</span> + Companion <span class="text-highlight">App</span><br/>
                     = Best Nap Trackker
@@ -12,11 +15,8 @@
                         <img src="static/assets/app-download-appstore.png" />
                     </a>
                 </div>
-                <div class="qrcode">
+                <div class="qrcode pc-pad">
                     <img src="static/assets/app-qrcode.png" width="180"/>
-                </div>
-                <div class="image">
-                    <img src="static/assets/app-show.png"/>
                 </div>
             </div>
         </div>
@@ -75,6 +75,17 @@
 
 // 手机
 @media only screen and (max-width: @screen-mobile) {
-
+    .app {
+        .content {
+            margin: 40px 0;
+            padding: 20px;
+        }
+        .image {
+            position: static;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 </style>
