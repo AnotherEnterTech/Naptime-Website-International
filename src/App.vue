@@ -140,15 +140,6 @@ html,body {
 // 手机
 @media only screen and (max-width: @screen-mobile) {
     @nav-height: 60px;
-    .f-title {
-        font-size: 16px;
-    }
-    .f-sign {
-        fong-size: 12px;
-    }
-    .f-desc {
-        fong-size: 12px;
-    }
     #app {
         nav {
             .inner {

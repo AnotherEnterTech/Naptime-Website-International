@@ -57,4 +57,24 @@
         top: 20px;
     }
 }
+
+// 显示器
+@media only screen and (min-width: @screen-desktop) {
+
+}
+
+// 笔记本
+@media only screen and (min-width: @screen-pad) and (max-width: @screen-desktop) {
+
+}
+
+// 平板
+@media only screen and (min-width: @screen-mobile) and (max-width: @screen-pad) {
+
+}
+
+// 手机
+@media only screen and (max-width: @screen-mobile) {
+
+}
 </style>

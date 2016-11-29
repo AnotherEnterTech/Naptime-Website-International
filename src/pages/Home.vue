@@ -77,7 +77,7 @@
 // 手机
 @media only screen and (max-width: @screen-mobile) {
     .home {
-        .cover-bg(url(static/assets/product-1-bg.png));
+        .cover-bg(url(static/assets/home-bg-m.png));
         .image {
             margin-top: 80px;
             text-align: right;
