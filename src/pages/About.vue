@@ -3,8 +3,11 @@
         <section class="as as-1">
             <div class="gap black"></div>
             <div class="inner">
-                <div class="image">
+                <div class="image pc-pad">
                     <img src="static/assets/about-members.png"/>
+                </div>
+                <div class="image mobile">
+                    <img src="static/assets/about-members-m.png" width="100%"/>
                 </div>
                 <div class="content">
                     <div class="description">
@@ -34,8 +37,14 @@
         </section>
         <section class="as as-2">
             <div class="inner">
-                <div class="image">
+                <div class="image pc-pad">
                     <img src="static/assets/about-founders.png" />
+                </div>
+                <div class="flag mobile pull-right">
+                    <img src="static/assets/about-founders-flag-m.png" width="196"/>
+                </div>
+                <div class="image mobile">
+                    <img src="static/assets/about-founders-m.png" width="261"/>
                 </div>
             </div>
         </section>
@@ -103,7 +112,11 @@
         background-image: url(static/assets/about-bg-2.png);
         background-repeat: no-repeat;
         background-size: cover;
-
+        .image {
+            img {
+                max-width: 100%;
+            }
+        }
     }
     .as-3 {
         height: 300px;
@@ -145,6 +158,55 @@
 
 // 手机
 @media only screen and (max-width: @screen-mobile) {
-
+    .about {
+        .as-1 {
+            height: auto;
+            .image {
+                position: static;
+                margin-top: 100px;
+            }
+            .content {
+                margin-top: 100px;
+                padding: 0 20px;
+                font-size: 12px;
+                line-height: 1.4;
+            }
+        }
+        .as-2 {
+            background: none;
+            height: auto;
+            padding: 20px 0;
+            .image {
+                margin-top: 40px;
+                padding: 20px;
+            }
+        }
+        .as-3 {
+            background: white;
+            .content {
+                padding: 20px 0;
+                padding-left: 30px;
+                padding-right: 10px;
+            }
+            .title {
+                color: @color-text-dark;
+                font-size: 20px;
+            }
+            .detail {
+                font-size: 12px;
+                color: @color-text-dark;
+                line-height: 1.6;
+                .text-highlight {
+                    color: #777;
+                }
+            }
+            .flag {
+                left: 10px;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
 }
 </style>
