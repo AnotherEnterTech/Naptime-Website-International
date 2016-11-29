@@ -11,7 +11,7 @@
                     = Best Nap Trackker
                 </div>
                 <div class="download">
-                    <a href="">
+                    <a href="javascript:void(0);" v-on:click="downloadApp">
                         <img src="static/assets/app-download-appstore.png" />
                     </a>
                 </div>
@@ -22,6 +22,19 @@
         </div>
     </section>
 </template>
+
+<script>
+export default {
+    methods: {
+        downloadApp: function () {
+            window.location = 'https://www.entertech.cn/app/naptime/ios/download?from=enterprise';
+            setTimeout(function () {
+				window.location.href = "/tip";
+			}, 3000);
+        }
+    }
+}
+</script>
 
 <style lang="less">
 @import "../common/less/color.less";

@@ -8216,7 +8216,7 @@ var app = new _vue2.default(_vue2.default.util.extend({
 
 app.$mount('#app');
 
-},{"./App.vue":6,"./router":12,"vue":4}],8:[function(require,module,exports){
+},{"./App.vue":6,"./router":13,"vue":4}],8:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".text-highlight {\n  color: #DDD600;\n}\n.text-highlight.reverse {\n  color: #000011;\n  background-color: #DDD600;\n}\n.black {\n  background-color: #3B363C;\n}\n.f-title {\n  font-size: 24px;\n  font-weight: bold;\n}\n.f-desc {\n  font-size: 15px;\n}\n.f-sign {\n  font-size: 16px;\n}\n.left {\n  float: left;\n}\n.pull-right {\n  float: right;\n}\n.clear-fix {\n  overflow: auto;\n  zoom: 1;\n}\n.relative {\n  position: relative;\n}\n.absolute {\n  position: absolute;\n}\n.gap {\n  height: 1px;\n}\n@media only screen and (min-width: 1200px) {\n  .pc {\n    display: block;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: none;\n  }\n}\n@media only screen and (min-width: 1024px) and (max-width: 1200px) {\n  .pc {\n    display: block;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: none;\n  }\n  .pc-pad {\n    display: block;\n  }\n}\n@media only screen and (min-width: 768px) and (max-width: 1024px) {\n  .pc {\n    display: none;\n  }\n  .pad {\n    display: block;\n  }\n  .mobile {\n    display: none;\n  }\n  .pc-pad {\n    display: block;\n  }\n}\n@media only screen and (max-width: 768px) {\n  .pc {\n    display: none;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: block;\n  }\n  .pc-pad {\n    display: none;\n  }\n  .f-title {\n    font-size: 16px;\n  }\n  .f-sign {\n    font-size: 13px;\n  }\n  .f-desc {\n    font-size: 13px;\n  }\n}\n.about .as {\n  height: 800px;\n}\n.about .inner {\n  position: relative;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n.about .as-1 {\n  background-image: url(static/assets/about-bg-1.png);\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.about .as-1 .content {\n  color: white;\n  font-size: 16px;\n  text-align: left;\n  margin-top: 180px;\n  padding-left: 600px;\n  line-height: 24px;\n}\n.about .as-1 .image {\n  position: absolute;\n  left: 0;\n  top: 0px;\n}\n.about .as-2 {\n  background-image: url(static/assets/about-bg-2.png);\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.about .as-2 .image img {\n  max-width: 100%;\n}\n.about .as-3 {\n  height: 300px;\n  text-align: left;\n  color: white;\n}\n.about .as-3 .content {\n  padding: 40px 100px;\n}\n.about .as-3 .title {\n  font-size: 32px;\n}\n.about .as-3 .detail {\n  font-size: 16px;\n}\n.about .as-3 .flag {\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n@media only screen and (max-width: 768px) {\n  .about .as-1 {\n    height: auto;\n  }\n  .about .as-1 .image {\n    position: static;\n    margin-top: 100px;\n  }\n  .about .as-1 .content {\n    margin-top: 100px;\n    padding: 0 20px;\n    font-size: 12px;\n    line-height: 1.4;\n  }\n  .about .as-2 {\n    background: none;\n    height: auto;\n    padding: 20px 0;\n  }\n  .about .as-2 .image {\n    margin-top: 40px;\n    padding: 20px;\n  }\n  .about .as-3 {\n    background: white;\n  }\n  .about .as-3 .content {\n    padding: 20px 0;\n    padding-left: 30px;\n    padding-right: 10px;\n  }\n  .about .as-3 .title {\n    color: #000011;\n    font-size: 20px;\n  }\n  .about .as-3 .detail {\n    font-size: 12px;\n    color: #000011;\n    line-height: 1.6;\n  }\n  .about .as-3 .detail .text-highlight {\n    color: #777;\n  }\n  .about .as-3 .flag {\n    left: 10px;\n  }\n  .about .as-3 .flag img {\n    width: 20px;\n  }\n}")
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
@@ -8235,10 +8235,28 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],9:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".text-highlight {\n  color: #DDD600;\n}\n.text-highlight.reverse {\n  color: #000011;\n  background-color: #DDD600;\n}\n.black {\n  background-color: #3B363C;\n}\n.f-title {\n  font-size: 24px;\n  font-weight: bold;\n}\n.f-desc {\n  font-size: 15px;\n}\n.f-sign {\n  font-size: 16px;\n}\n.left {\n  float: left;\n}\n.pull-right {\n  float: right;\n}\n.clear-fix {\n  overflow: auto;\n  zoom: 1;\n}\n.relative {\n  position: relative;\n}\n.absolute {\n  position: absolute;\n}\n.gap {\n  height: 1px;\n}\n@media only screen and (min-width: 1200px) {\n  .pc {\n    display: block;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: none;\n  }\n}\n@media only screen and (min-width: 1024px) and (max-width: 1200px) {\n  .pc {\n    display: block;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: none;\n  }\n  .pc-pad {\n    display: block;\n  }\n}\n@media only screen and (min-width: 768px) and (max-width: 1024px) {\n  .pc {\n    display: none;\n  }\n  .pad {\n    display: block;\n  }\n  .mobile {\n    display: none;\n  }\n  .pc-pad {\n    display: block;\n  }\n}\n@media only screen and (max-width: 768px) {\n  .pc {\n    display: none;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: block;\n  }\n  .pc-pad {\n    display: none;\n  }\n  .f-title {\n    font-size: 16px;\n  }\n  .f-sign {\n    font-size: 13px;\n  }\n  .f-desc {\n    font-size: 13px;\n  }\n}\n.app {\n  background-color: #3B363C;\n  background: url(static/assets/app-bg.png) no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n.app .inner {\n  max-width: 1440px;\n  height: 100%;\n  margin: 0 auto;\n}\n.app .content {\n  color: white;\n  text-align: left;\n  margin: 170px 200px;\n  position: relative;\n}\n.app .title {\n  line-height: 1.6;\n  margin: 40px 0;\n}\n.app .download {\n  margin: 20px 0;\n}\n.app .image {\n  position: absolute;\n  left: 200px;\n  top: 20px;\n}\n@media only screen and (max-width: 768px) {\n  .app .content {\n    margin: 40px 0;\n    padding: 20px;\n  }\n  .app .image {\n    position: static;\n  }\n  .app .image img {\n    width: 100%;\n  }\n}")
+;(function(){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = {
+    methods: {
+        downloadApp: function downloadApp() {
+            window.location = 'https://www.entertech.cn/app/naptime/ios/download?from=enterprise';
+            setTimeout(function () {
+                window.location.href = "/tip";
+            }, 3000);
+        }
+    }
+};
+})()
+if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;return _vm._m(0)}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;return _vm._h('section',{staticClass:"app"},[_vm._h('div',{staticClass:"inner"},[_vm._h('div',{staticClass:"gap black"})," ",_vm._h('div',{staticClass:"content"},[_vm._h('div',{staticClass:"image"},[_vm._h('img',{attrs:{"src":"static/assets/app-show.png"}})])," ",_vm._h('div',{staticClass:"title f-title"},[_vm._h('span',{staticClass:"text-highlight"},["Naptime"])," + Companion ",_vm._h('span',{staticClass:"text-highlight"},["App"]),_vm._h('br'),"\n                = Best Nap Trackker\n            "])," ",_vm._h('div',{staticClass:"download"},[_vm._h('a',{attrs:{"href":""}},[_vm._h('img',{attrs:{"src":"static/assets/app-download-appstore.png"}})])])," ",_vm._h('div',{staticClass:"qrcode pc-pad"},[_vm._h('img',{attrs:{"src":"static/assets/app-qrcode.png","width":"180"}})])])])])}]
+__vue__options__.render = function render () {var _vm=this;return _vm._h('section',{staticClass:"app"},[_vm._h('div',{staticClass:"inner"},[_vm._h('div',{staticClass:"gap black"})," ",_vm._h('div',{staticClass:"content"},[_vm._m(0)," ",_vm._m(1)," ",_vm._h('div',{staticClass:"download"},[_vm._h('a',{attrs:{"href":"javascript:void(0);"},on:{"click":_vm.downloadApp}},[_vm._h('img',{attrs:{"src":"static/assets/app-download-appstore.png"}})])])," ",_vm._m(2)])])])}
+__vue__options__.staticRenderFns = [function render () {var _vm=this;return _vm._h('div',{staticClass:"image"},[_vm._h('img',{attrs:{"src":"static/assets/app-show.png"}})])},function render () {var _vm=this;return _vm._h('div',{staticClass:"title f-title"},[_vm._h('span',{staticClass:"text-highlight"},["Naptime"])," + Companion ",_vm._h('span',{staticClass:"text-highlight"},["App"]),_vm._h('br'),"\n                = Best Nap Trackker\n            "])},function render () {var _vm=this;return _vm._h('div',{staticClass:"qrcode pc-pad"},[_vm._h('img',{attrs:{"src":"static/assets/app-qrcode.png","width":"180"}})])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -8247,7 +8265,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-4", __vue__options__)
   } else {
-    hotAPI.rerender("data-v-4", __vue__options__)
+    hotAPI.reload("data-v-4", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],10:[function(require,module,exports){
@@ -8262,9 +8280,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2", __vue__options__)
+    hotAPI.createRecord("data-v-3", __vue__options__)
   } else {
-    hotAPI.rerender("data-v-2", __vue__options__)
+    hotAPI.rerender("data-v-3", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],11:[function(require,module,exports){
@@ -8279,12 +8297,29 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3", __vue__options__)
+    hotAPI.createRecord("data-v-2", __vue__options__)
   } else {
-    hotAPI.rerender("data-v-3", __vue__options__)
+    hotAPI.rerender("data-v-2", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],12:[function(require,module,exports){
+var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".text-highlight {\n  color: #DDD600;\n}\n.text-highlight.reverse {\n  color: #000011;\n  background-color: #DDD600;\n}\n.black {\n  background-color: #3B363C;\n}\n.f-title {\n  font-size: 24px;\n  font-weight: bold;\n}\n.f-desc {\n  font-size: 15px;\n}\n.f-sign {\n  font-size: 16px;\n}\n.left {\n  float: left;\n}\n.pull-right {\n  float: right;\n}\n.clear-fix {\n  overflow: auto;\n  zoom: 1;\n}\n.relative {\n  position: relative;\n}\n.absolute {\n  position: absolute;\n}\n.gap {\n  height: 1px;\n}\n@media only screen and (min-width: 1200px) {\n  .pc {\n    display: block;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: none;\n  }\n}\n@media only screen and (min-width: 1024px) and (max-width: 1200px) {\n  .pc {\n    display: block;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: none;\n  }\n  .pc-pad {\n    display: block;\n  }\n}\n@media only screen and (min-width: 768px) and (max-width: 1024px) {\n  .pc {\n    display: none;\n  }\n  .pad {\n    display: block;\n  }\n  .mobile {\n    display: none;\n  }\n  .pc-pad {\n    display: block;\n  }\n}\n@media only screen and (max-width: 768px) {\n  .pc {\n    display: none;\n  }\n  .pad {\n    display: none;\n  }\n  .mobile {\n    display: block;\n  }\n  .pc-pad {\n    display: none;\n  }\n  .f-title {\n    font-size: 16px;\n  }\n  .f-sign {\n    font-size: 13px;\n  }\n  .f-desc {\n    font-size: 13px;\n  }\n}\nnav {\n  background-color: #3B363C;\n}\n.tip {\n  background: white;\n  padding-top: 80px;\n  padding-bottom: 40px;\n}\n.tip.page {\n  height: auto !important;\n}\n.tip p {\n  padding: 0 20px;\n  line-height: 1.6;\n  text-align: left;\n}\n.tip .center {\n  text-align: center;\n}")
+var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
+if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
+__vue__options__.render = function render () {var _vm=this;return _vm._m(0)}
+__vue__options__.staticRenderFns = [function render () {var _vm=this;return _vm._h('section',{staticClass:"tip"},[_vm._h('div',{staticClass:"tip1"},[_vm._h('p',{staticStyle:{"color":"#5483ff"}},["\n                App is being installed. Hold down the Home button to view.\n            "])," ",_vm._h('p',["\n                Our app is still in the procedure of Apple official review,\n                temporarily unavailable on App Store.\n                In order to run enterprise edition on you iPhone,\n                ",_vm._h('b',["we need to trust the enterprise developer."])])," ",_vm._h('img',{attrs:{"src":"static/assets/capture/tip-1.png","alt":"信任开发者账号","width":"200"}})," ",_vm._h('p',["\n                After installation,\n                tap the application.\n                There appears “Untrusted Enterprise Developer” pop-up window,\n                and then we need to trust the developer.\n            "])])," ",_vm._h('div',{staticClass:"tip2"},[_vm._h('img',{attrs:{"src":"static/assets/capture/tip-2.png","alt":"信任开发者账号","width":"200"}})," ",_vm._h('p',{staticClass:"center"},["Tap “Settings” - General"])])," ",_vm._h('div',{staticClass:"tip3"},[_vm._h('img',{attrs:{"src":"static/assets/capture/tip-3.png","alt":"信任开发者账号","width":"200"}})," ",_vm._h('p',["Find “Device Management” and tap “Hangzhou Enter Electronic Technol…”"])])," ",_vm._h('div',{staticClass:"tip4"},[_vm._h('img',{attrs:{"src":"static/assets/capture/tip-4.png","alt":"信任开发者账号","width":"200"}})," ",_vm._h('p',["\n                Tap “Trust ‘Hangzhou Enter Electronic Technol…‘” and appears a pop-up window.\n                Tap “Trust”. Go back to the desktop and open the application again.\n            "])])])}]
+if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), true)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  module.hot.dispose(__vueify_style_dispose__)
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-6", __vue__options__)
+  } else {
+    hotAPI.rerender("data-v-6", __vue__options__)
+  }
+})()}
+},{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],13:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -8315,6 +8350,10 @@ var _About = require('./pages/About.vue');
 
 var _About2 = _interopRequireDefault(_About);
 
+var _Tip = require('./pages/Tip.vue');
+
+var _Tip2 = _interopRequireDefault(_Tip);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _vue2.default.use(_vueRouter2.default);
@@ -8339,6 +8378,10 @@ var routes = [{
     mame: 'about',
     path: '/about',
     component: _About2.default
+}, {
+    name: 'tip',
+    path: '/tip',
+    component: _Tip2.default
 }];
 
 var router = new _vueRouter2.default({
@@ -8349,4 +8392,4 @@ var router = new _vueRouter2.default({
 
 exports.default = router;
 
-},{"./pages/About.vue":8,"./pages/App.vue":9,"./pages/Home.vue":10,"./pages/Product.vue":11,"vue":4,"vue-router":3}]},{},[7]);
+},{"./pages/About.vue":8,"./pages/App.vue":9,"./pages/Home.vue":10,"./pages/Product.vue":11,"./pages/Tip.vue":12,"vue":4,"vue-router":3}]},{},[7]);

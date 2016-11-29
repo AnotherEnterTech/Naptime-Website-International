@@ -40,7 +40,8 @@ gulp.task('index', (end) => {
     copy('index.html', 'Home', () => {});
     copy('index.html', 'Product', () => {});
     copy('index.html', 'App', () => {});
-    copy('index.html', 'About', end);
+    copy('index.html', 'About', () => {});
+    copy('index.html', 'Tip', end);
 });
 
 // watch.

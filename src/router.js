@@ -7,6 +7,7 @@ import Home from './pages/Home.vue'
 import Product from './pages/Product.vue'
 import App from './pages/App.vue'
 import About from './pages/About.vue'
+import Tip from './pages/Tip.vue'
 
 const routes = [{
     name: 'index',
@@ -28,6 +29,10 @@ const routes = [{
     mame: 'about',
     path: '/about',
     component: About
+}, {
+    name: 'tip',
+    path: '/tip',
+    component: Tip
 }]
 
 const router = new VueRouter({
