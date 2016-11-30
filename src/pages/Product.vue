@@ -138,8 +138,16 @@
                 </div>
             </div>
         </section>
+        <NapFooter></NapFooter>
     </section>
 </template>
+
+<script>
+import NapFooter from '../components/Footer.vue'
+export default {
+    components: { NapFooter }
+}
+</script>
 
 <style lang="less">
 @import "../common/less/color.less";

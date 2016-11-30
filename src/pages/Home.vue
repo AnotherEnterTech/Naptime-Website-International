@@ -21,6 +21,10 @@
     </section>
 </template>
 
+<script>
+
+</script>
+
 <style lang="less">
 @import "../common/less/color.less";
 @import "../common/less/layout.less";

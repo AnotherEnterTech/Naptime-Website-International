@@ -20,10 +20,12 @@
                 </div>
             </div>
         </div>
+        <NapFooter></NapFooter>
     </section>
 </template>
 
 <script>
+import NapFooter from '../components/Footer.vue'
 export default {
     methods: {
         downloadApp: function () {
@@ -32,7 +34,8 @@ export default {
 				window.location.href = "/tip";
 			}, 3000);
         }
-    }
+    },
+    components: { NapFooter }
 }
 </script>
 
