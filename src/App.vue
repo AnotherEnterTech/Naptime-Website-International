@@ -7,16 +7,16 @@
                 </div>
                 <ul class="menus">
                     <li>
-                        <router-link to="/home"> HOME </router-link>
+                        <router-link to="/home/"> HOME </router-link>
                     </li>
                     <li>
-                        <router-link to="/product"> PRODUCT </router-link>
+                        <router-link to="/product/"> PRODUCT </router-link>
                     </li>
                     <li>
-                        <router-link to="/app"> APP </router-link>
+                        <router-link to="/app/"> APP </router-link>
                     </li>
                     <li>
-                        <router-link to="/about"> ABOUT </router-link>
+                        <router-link to="/about/"> ABOUT </router-link>
                     </li>
                 </ul>
                 <div class="actions">

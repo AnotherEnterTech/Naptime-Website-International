@@ -8180,7 +8180,7 @@ var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".text-hi
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;return _vm._h('div',{attrs:{"id":"app"}},[_vm._h('nav',[_vm._h('div',{staticClass:"inner"},[_vm._m(0)," ",_vm._h('ul',{staticClass:"menus"},[_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/home"}},[" HOME "])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/product"}},[" PRODUCT "])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/app"}},[" APP "])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/about"}},[" ABOUT "])])])," ",_vm._m(1)])])," ",_vm._h('transition',{attrs:{"name":"fade","mode":"out-in"}},[_vm._h('router-view',{staticClass:"page"})])])}
+__vue__options__.render = function render () {var _vm=this;return _vm._h('div',{attrs:{"id":"app"}},[_vm._h('nav',[_vm._h('div',{staticClass:"inner"},[_vm._m(0)," ",_vm._h('ul',{staticClass:"menus"},[_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/home/"}},[" HOME "])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/product/"}},[" PRODUCT "])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/app/"}},[" APP "])])," ",_vm._h('li',[_vm._h('router-link',{attrs:{"to":"/about/"}},[" ABOUT "])])])," ",_vm._m(1)])])," ",_vm._h('transition',{attrs:{"name":"fade","mode":"out-in"}},[_vm._h('router-view',{staticClass:"page"})])])}
 __vue__options__.staticRenderFns = [function render () {var _vm=this;return _vm._h('div',{staticClass:"logo"},[_vm._h('img',{attrs:{"src":"/static/assets/logo_yellow.png"}})])},function render () {var _vm=this;return _vm._h('div',{staticClass:"actions"},[_vm._h('a',{staticClass:"buy left",attrs:{"href":"https://www.indiegogo.com/project/preview/a3a5d0cc#/","target":"_blank"}},[_vm._h('img',{attrs:{"src":"/static/assets/buy_now.png","width":"100"}})])," ",_vm._h('div',{staticClass:"share left"},[_vm._h('span',[_vm._h('a',{attrs:{"href":"https://twitter.com/entertechchina","target":"_blank"}},[_vm._h('img',{attrs:{"src":"/static/assets/share_twitter.png"}})])])," ",_vm._h('span',[_vm._h('a',{attrs:{"href":"https://www.facebook.com/Naptime-by-Entertech-1728156884115311","target":"_blank"}},[_vm._h('img',{attrs:{"src":"/static/assets/share_facebook.png"}})])])])])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -8190,7 +8190,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-1", __vue__options__)
   } else {
-    hotAPI.reload("data-v-1", __vue__options__)
+    hotAPI.rerender("data-v-1", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],7:[function(require,module,exports){
@@ -8228,9 +8228,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4", __vue__options__)
+    hotAPI.createRecord("data-v-5", __vue__options__)
   } else {
-    hotAPI.reload("data-v-4", __vue__options__)
+    hotAPI.rerender("data-v-5", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],9:[function(require,module,exports){
@@ -8263,9 +8263,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2", __vue__options__)
+    hotAPI.createRecord("data-v-4", __vue__options__)
   } else {
-    hotAPI.reload("data-v-2", __vue__options__)
+    hotAPI.rerender("data-v-4", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],10:[function(require,module,exports){
@@ -8280,9 +8280,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3", __vue__options__)
+    hotAPI.createRecord("data-v-2", __vue__options__)
   } else {
-    hotAPI.reload("data-v-3", __vue__options__)
+    hotAPI.rerender("data-v-2", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],11:[function(require,module,exports){
@@ -8297,9 +8297,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5", __vue__options__)
+    hotAPI.createRecord("data-v-3", __vue__options__)
   } else {
-    hotAPI.reload("data-v-5", __vue__options__)
+    hotAPI.rerender("data-v-3", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],12:[function(require,module,exports){
@@ -8316,7 +8316,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-6", __vue__options__)
   } else {
-    hotAPI.reload("data-v-6", __vue__options__)
+    hotAPI.rerender("data-v-6", __vue__options__)
   }
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],13:[function(require,module,exports){
