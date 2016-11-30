@@ -176,6 +176,7 @@ html,body {
                 right: 0;
                 .buy {
                     margin: 0;
+                    margin-right: 10px;
                     img {
                         width: 80px;
                     }
