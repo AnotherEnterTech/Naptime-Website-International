@@ -5,8 +5,9 @@ const vueify = require('vueify');
 const babelify = require('babelify');
 const browserify = require('browserify');
 const source = require('vinyl-source-stream');
-const server = require('./gulp/server.js');
 const copy = require('copy');
+const server = require('./gulp/server.js');
+
 
 const entryJS = './src/main.js';
 const resources = {
@@ -22,6 +23,9 @@ gulp.task('compile', () => {
     return browserify(entryJS)
         .transform('babelify')
         .transform('vueify')
+        .transform({
+            global: true
+        }, 'uglifyify')
         .bundle()
         .pipe(source('main.js'))
         .pipe(gulp.dest('static/js'))

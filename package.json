@@ -17,6 +17,7 @@
         "gulp-notify": "^2.2.0",
         "gulp-server-livereload": "^1.9.2",
         "st": "^1.2.0",
+        "uglifyify": "^3.0.4",
         "vinyl-source-stream": "^1.1.0",
         "vue-loader": "^10.0.1",
         "vue-template-compiler": "^2.1.3",
