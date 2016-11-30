@@ -37,11 +37,11 @@ gulp.task('refresh', () => {
 });
 
 gulp.task('index', (end) => {
-    copy('index.html', 'Home', () => {});
-    copy('index.html', 'Product', () => {});
-    copy('index.html', 'App', () => {});
-    copy('index.html', 'About', () => {});
-    copy('index.html', 'Tip', end);
+    copy('index.html', 'home', () => {});
+    copy('index.html', 'product', () => {});
+    copy('index.html', 'app', () => {});
+    copy('index.html', 'about', () => {});
+    copy('index.html', 'tip', end);
 });
 
 // watch.
