@@ -4,10 +4,10 @@
             <div class="gap black"></div>
             <div class="inner">
                 <div class="image pc-pad">
-                    <img src="static/assets/about-members.png"/>
+                    <img src="/static/assets/about-members.png"/>
                 </div>
                 <div class="image mobile">
-                    <img src="static/assets/about-members-m.png" width="100%"/>
+                    <img src="/static/assets/about-members-m.png" width="100%"/>
                 </div>
                 <div class="content">
                     <div class="description">
@@ -38,13 +38,13 @@
         <section class="as as-2">
             <div class="inner">
                 <div class="image pc-pad">
-                    <img src="static/assets/about-founders.png" />
+                    <img src="/static/assets/about-founders.png" />
                 </div>
                 <div class="flag mobile pull-right">
-                    <img src="static/assets/about-founders-flag-m.png" width="196"/>
+                    <img src="/static/assets/about-founders-flag-m.png" width="196"/>
                 </div>
                 <div class="image mobile">
-                    <img src="static/assets/about-founders-m.png" width="261"/>
+                    <img src="/static/assets/about-founders-m.png" width="261"/>
                 </div>
             </div>
         </section>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="flag">
-                    <img src="static/assets/about-flag.png"/>
+                    <img src="/static/assets/about-flag.png"/>
                 </div>
             </div>
         </section>
@@ -91,7 +91,7 @@
         margin: 0 auto;
     }
     .as-1 {
-        background-image: url(static/assets/about-bg-1.png);
+        background-image: url(/static/assets/about-bg-1.png);
         background-repeat: no-repeat;
         background-size: cover;
         .content {
@@ -109,7 +109,7 @@
         }
     }
     .as-2 {
-        background-image: url(static/assets/about-bg-2.png);
+        background-image: url(/static/assets/about-bg-2.png);
         background-repeat: no-repeat;
         background-size: cover;
         .image {

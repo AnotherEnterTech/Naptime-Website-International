@@ -4,7 +4,7 @@
             <div class="inner">
                 <div class="gap black"></div>
                 <div class="image">
-                    <img src="static/assets/product-1-show.png" width="600"/>
+                    <img src="/static/assets/product-1-show.png" width="600"/>
                 </div>
                 <div class="content">
                     <div class="title f-title">
@@ -25,7 +25,7 @@
             <div class="inner">
                 <div class="gap white"></div>
                 <div class="image">
-                    <img src="static/assets/product-2-image-1.png" width="400"/>
+                    <img src="/static/assets/product-2-image-1.png" width="400"/>
                 </div>
                 <div class="content">
                     <div class="title f-title">
@@ -45,7 +45,7 @@
             <div class="inner">
                 <div class="gap black"></div>
                 <div class="image">
-                    <img src="static/assets/product-3-show.png" width="640"/>
+                    <img src="/static/assets/product-3-show.png" width="640"/>
                 </div>
                 <div class="content">
                     <div class="title f-title">
@@ -68,7 +68,7 @@
             <div class="inner">
                 <div class="gap white"></div>
                 <div class="image">
-                    <img src="static/assets/product-4-image-1.png" width="400"/>
+                    <img src="/static/assets/product-4-image-1.png" width="400"/>
                 </div>
                 <div class="content">
                     <div class="title f-title">
@@ -102,7 +102,7 @@
                     <div class="title f-title pc-pad">
                         Naptime <span class="text-highlight">app</span>
                     </div>
-                    <img src="static/assets/product-5-show.gif"/>
+                    <img src="/static/assets/product-5-show.gif"/>
                 </div>
                 <div class="content">
                     <div class="title f-title mobile">
@@ -163,7 +163,7 @@
         }
     }
     .ps-1 {
-        background-image: url(static/assets/product-1-bg.png);
+        background-image: url(/static/assets/product-1-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         .content {
@@ -188,7 +188,7 @@
         }
     }
     .ps-2 {
-        background-image: url(static/assets/product-2-bg.png);
+        background-image: url(/static/assets/product-2-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         .content {
@@ -206,7 +206,7 @@
         }
     }
     .ps-3 {
-        background-image: url(static/assets/product-3-bg.png);
+        background-image: url(/static/assets/product-3-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         .content {
@@ -227,7 +227,7 @@
         }
     }
     .ps-4 {
-        background-image: url(static/assets/product-4-bg.png);
+        background-image: url(/static/assets/product-4-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         .content {
@@ -245,7 +245,7 @@
         }
     }
     .ps-5 {
-        background-image: url(static/assets/product-5-bg.png);
+        background-image: url(/static/assets/product-5-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         .content {

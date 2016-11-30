@@ -2,7 +2,7 @@
     <section class="home">
         <div class="gap black"></div>
         <div class="image mobile">
-            <img src="static/assets/home-show-m.png" width="280"/>
+            <img src="/static/assets/home-show-m.png" width="280"/>
         </div>
         <div class="main">
             <div class="title f-title">
@@ -27,7 +27,7 @@
 
 .home {
     background-color: @color-bg-dark;
-    .cover-bg(url(static/assets/home_bg.png));
+    .cover-bg(url(/static/assets/home_bg.png));
     .main {
         margin: 0 auto;
         max-width: 800px;
@@ -77,7 +77,7 @@
 // 手机
 @media only screen and (max-width: @screen-mobile) {
     .home {
-        .cover-bg(url(static/assets/home-bg-m.png));
+        .cover-bg(url(/static/assets/home-bg-m.png));
         .image {
             margin-top: 80px;
             text-align: right;

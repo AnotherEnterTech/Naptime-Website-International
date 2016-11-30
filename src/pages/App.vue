@@ -4,7 +4,7 @@
             <div class="gap black"></div>
             <div class="content">
                 <div class="image">
-                    <img src="static/assets/app-show.png"/>
+                    <img src="/static/assets/app-show.png"/>
                 </div>
                 <div class="title f-title">
                     <span class="text-highlight">Naptime</span> + Companion <span class="text-highlight">App</span><br/>
@@ -12,11 +12,11 @@
                 </div>
                 <div class="download">
                     <a href="javascript:void(0);" v-on:click="downloadApp">
-                        <img src="static/assets/app-download-appstore.png" />
+                        <img src="/static/assets/app-download-appstore.png" />
                     </a>
                 </div>
                 <div class="qrcode pc-pad">
-                    <img src="static/assets/app-qrcode.png" width="180"/>
+                    <img src="/static/assets/app-qrcode.png" width="180"/>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@ export default {
 
 .app {
     background-color: @color-bg-dark;
-    .cover-bg(url(static/assets/app-bg.png));
+    .cover-bg(url(/static/assets/app-bg.png));
     .inner {
         max-width: 1440px;
         height: 100%;
