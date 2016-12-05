@@ -29,7 +29,7 @@ import NapFooter from '../components/Footer.vue'
 export default {
     methods: {
         downloadApp: function () {
-            window.location = '/naptime-enterprise.plist';
+            window.location = 'https://www.entertech.cn/app/naptime/ios/download?from=enterprise';
             setTimeout(function () {
 				window.location.href = "/tip";
 			}, 3000);
