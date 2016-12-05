@@ -1,0 +1,51 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>assets</key>
+                <array>
+                    <dict>
+                        <key>kind</key>
+                        <string>software-package</string>
+                        <key>url</key>
+                        <string>https://static.entertech.cn/apps/NaptimeEnterprise.ipa</string>
+                    </dict>
+                    <!-- 可选项 display-image: 在下载过程中显示的图标. -->
+                    <dict>
+                        <key>kind</key>
+                        <string>display-image</string>
+                        <key>url</key>
+                        <string>https://static.entertech.cn/images/AppIcon/Icon.png</string>
+                    </dict>
+                    <!-- 可选项，full-size-image:(512x512) 在 iTunes 使用的图标. -->
+                    <dict>
+                        <key>kind</key>
+                        <string>full-size-image</string>
+                        <key>url</key>
+                        <string>https://static.entertech.cn/images/AppIcon/iTunesArtwork.png</string>
+                    </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                    <!-- 必填项，应用程序的 identifier -->
+                    <key>bundle-identifier</key>
+                    <string>cn.entertech.naptime-enterprise</string>
+                    <!-- 可选项，应用程序的版本号 -->
+                    <key>bundle-version</key>
+                    <string>1.1.1</string>
+                    <!-- 必填项 下载类型默认为software -->
+                    <key>kind</key>
+                    <string>software</string>
+                    <!-- 可选项 在提示下载时显示，一般为公司的名称 -->
+                    <key>subtitle</key>
+                    <string>Enter Tech</string>
+                    <!-- 必填项，在下载的过程中显示. -->
+                    <key>title</key>
+                    <string>NaptimeEnterprise</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
