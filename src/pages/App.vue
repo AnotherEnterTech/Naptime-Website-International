@@ -12,7 +12,7 @@
                 </div>
                 <div class="download">
                     <a href="javascript:void(0);" v-on:click="downloadApp">
-                        <img src="/static/assets/app-download-appstore.png" />
+                        <img src="/static/assets/app-download.png" />
                     </a>
                 </div>
                 <div class="qrcode pc-pad">
