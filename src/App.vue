@@ -20,7 +20,7 @@
                     </li>
                 </ul>
                 <div class="actions">
-                    <a href="https://www.indiegogo.com/project/preview/a3a5d0cc#/" class="buy left" target="_blank">
+                    <a href="https://igg.me/at/naptime-smart-eyeshade/x/12899095" class="buy left" target="_blank">
                         <img src="/static/assets/buy_now.png" width="100">
                     </a>
                     <div class="share left">
