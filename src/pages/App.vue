@@ -8,7 +8,7 @@
                 </div>
                 <div class="title f-title">
                     <span class="text-highlight">Naptime</span> + Companion <span class="text-highlight">App</span><br/>
-                    = Best Nap Trackker
+                    = Best Nap Tracker
                 </div>
                 <div class="download">
                     <a href="javascript:void(0);" v-on:click="downloadApp">
