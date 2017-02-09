@@ -11,7 +11,7 @@
                     = Best Nap Tracker
                 </div>
                 <div class="download">
-                    <a href="https://itunes.apple.com/app/id1128614633">
+                    <a href="https://itunes.apple.com/app/id1128614633" target="_blank">
                         <img src="/static/assets/app-download.png" />
                     </a>
                 </div>
