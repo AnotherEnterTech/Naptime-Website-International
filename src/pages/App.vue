@@ -11,7 +11,7 @@
                     = Best Nap Tracker
                 </div>
                 <div class="download">
-                    <a href="javascript:void(0);" v-on:click="downloadApp">
+                    <a href="https://itunes.apple.com/app/id1128614633">
                         <img src="/static/assets/app-download.png" />
                     </a>
                 </div>
@@ -28,12 +28,6 @@
 import NapFooter from '../components/Footer.vue'
 export default {
     methods: {
-        downloadApp: function () {
-            window.location = 'https://www.entertech.cn/app/naptime/ios/download?from=enterprise';
-            setTimeout(function () {
-				window.location.href = "/tip";
-			}, 3000);
-        }
     },
     components: { NapFooter }
 }
